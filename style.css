@@ -38,7 +38,11 @@ nav, .nav-links {
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 15vh;
+    height: 10vh;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .nav-links {
@@ -64,7 +68,7 @@ a:hover {
 }
 
 .logo:hover {
-    cursor: default;
+    cursor: pointer;
 }
 
 /* Hamberger Menu */
@@ -160,10 +164,6 @@ section {
     display: flex;
 }
 
-/* Section Divisors */
-
-
-
 /* Profile */
 
 #Profile {
@@ -192,6 +192,7 @@ section {
 
 .section_text-p1 {
     text-align: center;
+    margin-top: 3rem;
 }
 
 .section_text-p2 {
@@ -285,10 +286,12 @@ about-containers {
     border-radius: 2rem;
 }
 
-.arrow {
+.section_arrow {
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
+    height: 2rem;
+    cursor: pointer;
 }
 
 .details-container {
@@ -310,6 +313,11 @@ about-containers {
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+
+.about-text-container {
+    margin-top: 1rem;
+    text-align: center;
 }
 
 /* Experience */
@@ -351,6 +359,31 @@ article .icon {
     cursor: default;
 }
 
+/* Interests */
+
+#Interests {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-container {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.interest-section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.interest-photos {
+    height: 400px;
+    border-radius: 2rem;
+    margin: 2.5rem;
+}
+
 /* Contacts */
 
 #Contacts {
@@ -358,7 +391,7 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 80vh;
 }
 
 .contact-info-upper-container {
@@ -404,7 +437,7 @@ article .icon {
 /* Footer */
 
 footer {
-    height: 26vh;
+    height: 5vh;
     margin: 0 1rem;
 }
 
