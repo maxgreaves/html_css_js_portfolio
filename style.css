@@ -286,7 +286,7 @@ about-containers {
     border-radius: 2rem;
 }
 
-.section_arrow {
+.section-arrow {
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
@@ -391,7 +391,7 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 80vh;
+    height: 60vh;
 }
 
 .contact-info-upper-container {
