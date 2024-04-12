@@ -375,9 +375,7 @@ article .icon {
 }
 
 .text-container {
-    margin-bottom: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 1rem;
     text-align: center;
 }
 
@@ -396,7 +394,7 @@ article .icon {
 .interest-photos {
     height: 400px;
     border-radius: 2rem;
-    margin-inline: 1rem;
+    margin-inline: 2.5rem;
 }
 
 /* Contacts */
