@@ -32,7 +32,8 @@
     .bottom-icon-arrow {
         display: none;
     }
-    section, .section-container {
+    section, 
+    .section-container {
         height: fit-content;
     }
     section {
@@ -43,7 +44,8 @@
         height: 275px;
         margin: 0 auto 2rem;
     }
-    .about-containers {
+    .about-containers,
+    .interest-section-container {
         margin-top: 0;
     }
     .interest-photos {
@@ -69,8 +71,12 @@
     }
     .about-containers, 
     .contact-info-upper-container, 
-    .btn-container {
+    .btn-container,
+    .interest-section_pic-container {
         flex-wrap: wrap;
+    }
+    .interest-section_pic-container {
+        flex-direction: column;
     }
     .contact-info-container {
         margin: 0;
@@ -101,7 +107,8 @@
     .title {
         font-size: 2rem;
     }
-    .text-container {
-        text-align: justify;
+    .about-text-container,
+    .interest-text-container {
+        text-align: center;
     }
 }
