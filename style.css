@@ -203,6 +203,7 @@ section {
 .title {
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 #socials {
@@ -218,6 +219,12 @@ section {
     cursor: pointer;
     height: 2rem;
 }
+
+.about-icon {
+    height: 3rem;
+    width: 3rem;
+    align: center;
+}   
 
 /* Buttons */
 
@@ -286,6 +293,7 @@ about-containers {
 
 .details-container {
     margin-inline: 1rem;
+    font-size: 1.09rem;
 }
 
 .about-pic {
@@ -337,32 +345,52 @@ about-containers {
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .experience-details-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 0fr;
     justify-content: center;
+}
+
+.details-container {
+    padding: 1.5rem;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    display: flex;
     flex-direction: column;
 }
 
 .article-container {
     display: flex;
+    flex-direction: column;
+    gap: 2rem;
     text-align: initial;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2.5rem;
-    justify-content: space-around;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
 }
 
 article {
     display: flex;
-    width: 10rem;
-    justify-content: space-around;
+    justify-content: flex-start;
     gap: 0.5rem;
+    align-items: flex-start;
+    min-height: 60px;
 }
 
 article .icon {
     cursor: default;
+    flex-shrink: 0;
+    margin-top: 0.2rem;
+}
+
+article div {
+    flex: 1;
 }
 
 /* Interests */
